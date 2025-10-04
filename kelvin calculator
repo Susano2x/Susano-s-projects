@@ -1,0 +1,9 @@
+const Kelvin = 0;
+// kelving will be 293 always 
+let celsius = Kelvin - 273; 
+//makes celsius equal to kelvin - 273
+let Fahrenheit = celsius * (9/5) + 32;
+// makes fahrenheit the product of those
+Fahrenheit = Math.floor(Fahrenheit);
+// rounds celsius down
+console.log(`The temperature is ${Fahrenheit} degrees Fahrenheit`); 
